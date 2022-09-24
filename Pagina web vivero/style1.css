@@ -1,0 +1,492 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav_container{
+
+height: 93px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 93px;
+}
+
+.nav.logo{
+
+position: absolute;
+width: 123px;
+height: 35.78px;
+top: 28.29px;
+}
+
+.nav-items {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items:nth-last-of-type(1){
+    margin:0
+}
+
+/* Frame 45 */
+
+position: relative;
+width: 1440px;
+height: 93px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Planty's Logo */
+
+position: absolute;
+width: 123px;
+height: 35.78px;
+left: 50px;
+top: 28.29px;
+
+
+
+/* Vector 3 */
+
+position: absolute;
+left: 20.91%;
+right: 72.6%;
+top: 13.97%;
+bottom: 32.32%;
+
+background: #007074;
+
+
+/* Vector 4 */
+
+position: absolute;
+left: 26.68%;
+right: 58.65%;
+top: 23.06%;
+bottom: 10.83%;
+
+background: #007074;
+
+
+/* Vector 5 */
+
+position: absolute;
+left: 0%;
+right: 77.65%;
+top: 8.56%;
+bottom: -0.56%;
+
+background: #007074;
+transform: rotate(-6.39deg);
+
+
+/* Planty'x */
+
+position: absolute;
+left: 47.84%;
+right: -90.11%;
+top: 31.4%;
+bottom: -1.28%;
+
+font-family: 'Belleza';
+font-style: normal;
+font-weight: 400;
+font-size: 21.2885px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+
+
+
+/* Administrador */
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 481px;
+top: 40px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+
+
+
+#plantas{
+
+position: absolute;
+width: 57px;
+height: 20px;
+left: 670px;
+top: 40px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+}
+
+
+#decoracion{
+
+position: absolute;
+width: 57px;
+height: 20px;
+left: 720px;
+top: 40px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+}
+
+
+#inicio{
+
+position: absolute;
+width: 72px;
+height: 20px;
+left: 823px;
+top: 40px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+#ingresar{
+
+position: absolute;
+width: 56px;
+height: 20px;
+left: 949px;
+top: 40px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+}
+
+
+.nav-btn-container{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1100px;
+top: 37px;
+}
+
+.nav-btn-container2{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1150px;
+top: 37px;
+}
+
+#nav-btn-container3{
+
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 1366px;
+top: 37px;
+}
+
+
+h1{
+ padding-top: 130px;
+ font-size: 80px;
+ color: #007074;
+}
+
+#leftp{
+    font-size: 30px;
+}
+
+.descripcion_productos{
+    width: 300px;
+    
+}
+
+#desproductos{
+    padding-top: 600px;
+    font-size: 40px;
+    left: 50px;
+}
+
+#desproductos_p{
+    top: 10px;
+    font-size: 20px;
+    left: 10px;
+}
+
+
+.card{
+
+position: absolute;
+width: 206px;
+height: 360px;
+padding-left:350px;
+top: 700px;
+}
+
+
+/* Frame 51 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.56%;
+
+background: url(annie-spratt-fbAnIjhrOL4-unsplash.jpg);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 8px;
+
+
+/* Group 8 */
+
+position: absolute;
+left: 0%;
+right: 52.43%;
+top: 74.72%;
+bottom: 20%;
+
+
+
+/* Group 7 */
+
+position: absolute;
+left: 0%;
+right: 52.43%;
+top: 74.72%;
+bottom: 20%;
+
+
+
+/* Group 6 */
+
+position: absolute;
+left: 0%;
+right: 52.43%;
+top: 74.72%;
+bottom: 20%;
+
+
+
+/* Group 5 */
+
+position: absolute;
+left: 0%;
+right: 52.43%;
+top: 74.72%;
+bottom: 20%;
+
+
+
+/* Matera Canela */
+
+position: absolute;
+left: 0%;
+right: 52.43%;
+top: 74.72%;
+bottom: 20%;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+
+
+
+/* Especial para plantas pequeñas */
+
+position: absolute;
+left: 0%;
+right: 29.13%;
+top: 77.22%;
+bottom: 7.5%;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+
+
+
+/* $25,000 */
+
+position: absolute;
+left: 70.87%;
+right: 0%;
+top: 78.33%;
+bottom: 13.06%;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: -0.44351px;
+
+color: #000000;
+
+
+
+/* Btn_CreateAccount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+left: 1.46%;
+right: 50%;
+top: 92.78%;
+bottom: 0%;
+
+background: rgba(0, 112, 116, 0.5);
+border-radius: 11px;
+
+
+/* Mas información */
+
+width: 79px;
+height: 13px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Btn_CreateAccount */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 93px;
+height: 26px;
+left: 110px;
+top: 333px;
+
+background: #007074;
+border-radius: 11px;
+
+
+/* Añadir al carro */
+
+width: 45px;
+height: 26px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
